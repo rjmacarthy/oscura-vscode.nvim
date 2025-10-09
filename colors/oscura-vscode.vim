@@ -69,6 +69,26 @@ function! s:h(group, fg, bg, attr)
   endif
 endfunction
 
+" --- LazyVim / Neo-tree / Terminal integration -------------------------------
+hi! NormalNC         guibg=#000000 guifg=#C2C2C2
+hi! NormalFloat      guibg=#000000 guifg=#C2C2C2
+hi! FloatBorder      guibg=#000000 guifg=#323232
+hi! WinSeparator     guibg=#000000 guifg=#323232
+hi! TermNormal       guibg=#000000 guifg=#C2C2C2
+hi! TermNormalNC     guibg=#000000 guifg=#C2C2C2
+
+" Neo-tree
+hi! NeoTreeNormal    guibg=#000000 guifg=#C2C2C2
+hi! NeoTreeNormalNC  guibg=#000000 guifg=#C2C2C2
+hi! NeoTreeEndOfBuffer guibg=#000000 guifg=#000000
+hi! NeoTreeDirectoryName guifg=#4EC9B0
+hi! NeoTreeDirectoryIcon guifg=#4EC9B0
+hi! NeoTreeFileName  guifg=#C2C2C2
+hi! NeoTreeGitAdded  guifg=#6A9955
+hi! NeoTreeGitDeleted guifg=#F14C4C
+hi! NeoTreeGitModified guifg=#D7BA7D
+hi! NeoTreeTitleBar  guibg=#000000 guifg=#4EC9B0
+
 " --- Editor UI ---------------------------------------------------------------
 call s:h('Normal', s:fg, s:bg, '')
 call s:h('Cursor', s:bg, s:cursor, 'bold')

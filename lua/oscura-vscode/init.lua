@@ -1,5 +1,3 @@
-require("oscura-vscode.autocmds")
-
 local M = {}
 
 function M.setup()

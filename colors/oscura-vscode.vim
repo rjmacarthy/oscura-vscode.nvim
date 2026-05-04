@@ -27,7 +27,7 @@ let s:cursor       = '#4A88C7'      " blue accent
 let s:visual       = '#094770'      " selection highlight
 let s:selection    = '#094770'
 let s:search       = '#4A88C7'
-let s:matchbracket = '#4A88C7'
+let s:matchbracket = '#264F78'
 
 " Editor chrome
 let s:linenum      = '#3A3A3A'
@@ -99,7 +99,7 @@ call s:h('VertSplit', s:border, s:bg, '')
 call s:h('StatusLine', s:fg, s:statusbg, 'none')
 call s:h('Visual', '', s:visual, '')
 call s:h('Search', s:bg, s:search, '')
-call s:h('MatchParen', '', s:matchbracket, 'bold')
+call s:h('MatchParen', s:bg, s:matchbracket, 'bold')
 call s:h('Error', s:error, '', '')
 call s:h('WarningMsg', s:warning, '', '')
 call s:h('DiffAdd', '', s:diffadd, '')

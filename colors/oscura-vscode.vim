@@ -44,7 +44,7 @@ let s:string       = '#CE9178'
 let s:number       = '#B5CEA8'
 let s:constant     = '#D7BA7D'
 let s:type         = '#5ADBB0'
-let s:special      = '#9CDCFE'
+let s:special      = '#000000'
 let s:attr         = '#54C0A3'
 let s:link         = '#4A88C7'
 let s:error        = '#FF5C5C'
@@ -150,25 +150,5 @@ endif
 hi! link Directory Tag
 hi! link Title Keyword
 hi! link Todo WarningMsg
-
-" --- Neogit ------------------------------------------------------------------
-hi! NeogitCursorLine            guibg=#0A0A0A
-hi! NeogitPopupSectionTitle     guifg=#DCDCAA gui=bold
-hi! NeogitPopupBranchName       guifg=#5ADBB0
-hi! NeogitPopupBold             guifg=#C2C2C2 gui=bold
-hi! NeogitPopupSwitchKey        guifg=#CE9178
-hi! NeogitPopupSwitchEnabled    guifg=#5ADBB0
-hi! NeogitPopupSwitchDisabled   guifg=#6E6F7A
-hi! NeogitPopupConfigKey        guifg=#CE9178
-hi! NeogitPopupConfigEnabled    guifg=#5ADBB0
-hi! NeogitPopupConfigDisabled   guifg=#6E6F7A
-hi! NeogitPopupOptionKey        guifg=#CE9178
-hi! NeogitPopupOptionEnabled    guifg=#5ADBB0
-hi! NeogitPopupOptionDisabled   guifg=#6E6F7A
-hi! NeogitPopupActionKey        guifg=#CE9178 guibg=NONE
-hi! NeogitPopupActionDisabled   guifg=#6E6F7A guibg=NONE
-hi! NeogitHunkHeader            guifg=#C2C2C2 guibg=#1E1E1E
-hi! NeogitHunkHeaderHighlight   guifg=#C2C2C2 guibg=#2D2D2D gui=bold
-hi! NeogitDiffContextHighlight  guibg=#0A0A0A
 " ============================================================================
 
